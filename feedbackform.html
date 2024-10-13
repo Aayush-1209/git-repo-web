@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <style>
+        div {
+            border: 2px solid red;
+            margin: 3px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Feedback Form</h1>
+    <form>
+
+       
+        <label for="feedback-type">Feedback Type:</label>
+        <select id="feedback-type" name="feedback_type">
+            <option value="general">General Feedback</option>
+            <option value="bug">Report a Bug</option>
+            <option value="suggestion">Suggestion</option>
+        </select>
+        <br><br>
+        <br><br>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" cols="50" placeholder="Enter your message here" ></textarea>
+
+        <br><br>
+        <br><br>
+
+       
+        <label>Website Rating:</label><br>
+        <input type="radio" id="rating-1" name="rating" value="1">
+        <label for="rating-1">1</label>
+        <input type="radio" id="rating-2" name="rating" value="2">
+        <label for="rating-2">2</label>
+        <input type="radio" id="rating-3" name="rating" value="3">
+        <label for="rating-3">3</label>
+        <input type="radio" id="rating-4" name="rating" value="4">
+        <label for="rating-4">4</label>
+        <input type="radio" id="rating-5" name="rating" value="5">
+        <label for="rating-5">5</label>
+
+        <br><br>
+        <br><br>
+
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="10" max="100">
+
+        <br><br>
+        <br><br>
+
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+        <br><br>
+
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8">
+
+        <br><br>
+        <br><br>
+
+       
+        <label for="website-url">Website (Optional):</label>
+        <input type="url" id="website-url" name="website">
+
+        <br><br>
+        <br><br>
+
+        
+        <input type="checkbox" id="terms" name="terms" >
+        <label for="terms">I agree to the terms and conditions</label>
+
+        <br><br>
+        <br><br>
+
+        
+        <input type="submit" value="Submit Feedback">
+
+
+    </form>
+
+    </div>
+    
+</body>
+</html>
