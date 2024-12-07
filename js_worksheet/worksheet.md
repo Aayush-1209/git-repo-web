@@ -196,3 +196,6 @@ Question 6. Call bind apply
 
 const detachedGetNum = obj.getNum.bind(obj); 
 console.log(detachedGetNum()); // Output: 42
+
+
+all explaination task -- https://www.loom.com/share/83d9c2bc2e304abaa3565df95b7edd92?sid=d2793473-f502-4a40-9110-8092ebaa061e
