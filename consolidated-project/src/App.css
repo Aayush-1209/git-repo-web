@@ -1,0 +1,16 @@
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.user-card {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
